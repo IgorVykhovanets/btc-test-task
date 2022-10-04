@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.btc-info-block{
+  display: flex;
+  height: 200px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  > .btc-info-block-left{
+    margin-right: 30px;
+    > h1{
+      font-size: 36px;
+      letter-spacing: 2px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    > p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 10px;
+      position: relative;
+      bottom: 20px;
+      left: 10px;
+    }
+  }
+  > .btc-info-block-right{
+    > ul{
+      > span{
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 20px;
+        right: 20px;
+        animation: btc-price 4s 1;
+      }
+      > li {
+        margin: 5px 0 5px 15px;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        animation: btc-price 5s 1;
+      }
+      @keyframes btc-price {
+        0%{
+          font-size: 0;
+        }
+        50%{
+          font-size: 0;
+        }
+      }
+    }
+  }
+}

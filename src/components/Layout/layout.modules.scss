@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.btc-link-block{
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  > .link-block{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+  }
+  .link-block:hover{
+    font-size: 22px;
+    transition: 1s;
+    color: rgba(255, 0, 0, 0.9);
+  }
+  .link-block:active{
+    color: rgba(0, 0, 0, 0.8);;
+  }
+}

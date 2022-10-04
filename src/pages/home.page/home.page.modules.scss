@@ -1,0 +1,14 @@
+.layout-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  animation: layout-block 3s 1;
+  @keyframes layout-block {
+    0%{
+      margin-top: 1000px;
+    }
+  }
+}
+
+
